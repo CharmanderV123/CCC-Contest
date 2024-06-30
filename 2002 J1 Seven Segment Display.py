@@ -2,8 +2,6 @@
 
 num = int(input("Enter Number "))
 
-#print("number", num)
-
 if (num == 0):
     print(" * * * \n*     *\n*     *\n*     *\n\n*     *\n*     *\n*     *\n * * * ")
 
