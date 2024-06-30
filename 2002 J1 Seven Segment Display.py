@@ -4,96 +4,32 @@ num = int(input("Enter Number "))
 
 #print("number", num)
 
-if (num == 1):
-    print("   *")
-    print("   *")
-    print("   *")
-    print("")
-    print("   *")
-    print("   *")
-    print("   *")
+if (num == 0):
+    print(" * * * \n*     *\n*     *\n*     *\n\n*     *\n*     *\n*     *\n * * * ")
+
+elif (num == 1):
+    print("   *\n   *\n   *\n\n   *\n   *\n   *")
 
 elif (num == 2):
-    print(" * * *")
-    print("      *")
-    print("      *")
-    print("      *")
-    print(" * * *")
-    print("*")
-    print("*")
-    print("*")    
-    print(" * * *")
+    print(" * * *\n      *\n      *\n      *\n * * *\n*\n*\n*\n * * *")  
 
 elif (num == 3):
-    print(" * * *")
-    print("      *")
-    print("      *")
-    print("      *")
-    print(" * * *")
-    print("      *")
-    print("      *")
-    print("      *")    
-    print(" * * *")
+    print(" * * *\n      *\n      *\n      *\n * * *\n      *\n      *\n      *\n * * *")
 
 elif (num == 4):
-    print("*     *")
-    print("*     *")
-    print("*     *")
-    print(" * * *")
-    print("      *")
-    print("      *")
-    print("      *")   
+    print("*     *\n*     *\n*     *\n * * *\n      *\n      *\n      *")
 
 elif (num == 5):
-    print(" * * *")
-    print("*")
-    print("*")
-    print("*")   
-    print(" * * *")
-    print("      *")
-    print("      *")
-    print("      *") 
-    print(" * * *")
+    print(" * * *\n*\n*\n*\n * * *\n      *\n      *\n      *\n * * *")
 
 elif (num == 6):
-    print(" * * *")
-    print("*")
-    print("*")
-    print("*")   
-    print(" * * *")
-    print("*     *")
-    print("*     *")
-    print("*     *") 
-    print(" * * *")
+    print(" * * *\n*\n*\n*\n * * *\n*     *\n*     *\n*     *\n * * *")
 
 elif (num == 7):
-    print(" * * *")
-    print("      *")
-    print("      *")
-    print("      *")
-    print("")
-    print("      *")
-    print("      *")
-    print("      *") 
+    print(" * * *\n      *\n      *\n      *\n\n      *\n      *\n      *")
 
 elif (num == 8):
-    print(" * * *")
-    print("*     *")
-    print("*     *")
-    print("*     *")   
-    print(" * * *")
-    print("*     *")
-    print("*     *")
-    print("*     *") 
-    print(" * * *")
+    print(" * * *\n*     *\n*     *\n*     *\n * * *\n*     *\n*     *\n*     *\n * * *")
 
 elif (num == 9):
-    print(" * * *")
-    print("*     *")
-    print("*     *")
-    print("*     *") 
-    print(" * * *")
-    print("      *")
-    print("      *")
-    print("      *")   
-    print(" * * *")
+    print(" * * *\n*     *\n*     *\n*     *\n * * *\n      *\n      *\n      *\n * * *")
